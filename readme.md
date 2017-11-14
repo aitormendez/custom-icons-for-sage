@@ -9,7 +9,7 @@ Atomated workflow to design custom icons and implement it into Sage 8.5.3 WordPr
 
 ![Sketch template](readme-img/sketch-template.png?raw=true "Title")Sketch template
 
-![default sage HTML page with some icons rendered](readme-img/html-render.png?raw=true "Title") default sage HTML page with some icons rendered
+![default sage HTML page with some icons rendered](readme-img/html-render-dark.png?raw=true "Title") default sage HTML page with some icons rendered
 
 ## Install
 
