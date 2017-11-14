@@ -42,3 +42,7 @@ gulp.task('sprite', function(){
 gulp.task('default', ['sketch'], function() {
   gulp.start('sprite');
 });
+
+gulp.task('watch', function() {
+  gulp.watch(['./src/sketch/**/*.sketch'], ['default']);
+});

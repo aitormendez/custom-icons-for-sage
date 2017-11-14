@@ -1,5 +1,5 @@
 {
-  "name": "svg-sketch",
+  "name": "Custom icons for Sage",
   "version": "1.0.0",
   "description": "Design custom icons with Sketch app and build a SVG sprite for Sage 8.5.3 starter theme",
   "main": "index.js",
@@ -13,6 +13,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Aitor Méndez",
   "license": "ISC"
 }
