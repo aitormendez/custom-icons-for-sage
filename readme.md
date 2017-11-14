@@ -7,9 +7,12 @@ Atomated workflow to design custom icons and implement it into Sage 8.5.3 WordPr
 3. Generate Scss to manage the sprite.
 3. Inject scss in the main css Sage workflow and put the sprite in its place.
 
-![Sketch template](readme-img/sketch-template.png?raw=true "Title")Sketch template
+Sketch template:
+![Sketch template](readme-img/sketch-template.png?raw=true "Title")
 
-![default sage HTML page with some icons rendered](readme-img/html-render-dark.png?raw=true "Title") default sage HTML page with some icons rendered
+default sage HTML page with some icons rendered:
+![default sage HTML page with some icons rendered](readme-img/html-render-dark.png?raw=true "Title")
+
 
 ## Install
 
