@@ -5,8 +5,44 @@ Atomated workflow to design custom icons and implement it into Sage 8.5.3 WordPr
 1. Design as many icons as you want with [Sketch app](https://www.sketchapp.com/) template
 2. Generate one SVG sprite with all icons.
 3. Generate Scss to manage the sprite.
-3. Inject scss in the main css Sage workflow and put the sprite in ts place.
+3. Inject scss in the main css Sage workflow and put the sprite in its place.
 
-![Sketch template](readme-img/sketch-template.png?raw=true "Title")
+![Sketch template](readme-img/sketch-template.png?raw=true "Title")Sketch template
 
-![HTML page rendered with icons](readme-img/html-render.png?raw=true "Title")
+![default sage HTML page with some icons rendered](readme-img/html-render.png?raw=true "Title") default sage HTML page with some icons rendered
+
+## Install
+
+From theme directory, run:
+
+```
+$ git@github.com:aitormendez/custom-icons-for-sage.git && cd custom-icons-for-sage/
+```
+```
+$ npm install
+```
+```
+$ gulp && gulp watch
+```
+Add this line: `@import "svg-sprite/sprite";` to `assets/styles/main.scss`
+
+In another terminal window, from theme directory, run:
+
+```
+$ gulp && gulp watch
+```
+
+(You should to have in this moment two terminal windows, both running `gulp watch`)
+
+Edit `src/sketch/icons.sketch` as you like.
+
+Edit your theme templates to include some icons in this way (look at `svg-sprite/_sprite.scss` to get a complete list of your css classes):
+
+```html
+<div class="svg-icon-one svg-icon-one-dims"></div>
+<div class="svg-icon-two svg-icon-two-dims"></div>
+<div class="svg-icon-three svg-icon-three-dims"></div>
+```
+Every time you save changes in sketch file, browser sync will update the page render with all changes.
+
+:smile:
