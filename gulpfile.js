@@ -14,7 +14,6 @@ gulp.task('sketch', function(){
     .pipe(gulp.dest('./dist/images/'));
 });
 
-
 var config = {
   "dest" : ".",
   "mode" : {
@@ -33,10 +32,13 @@ var config = {
   }
 };
 
-
 gulp.task('sprite', function(){
   return gulp.src('**/*.svg', {cwd: './dist/images/'})
     .pipe(plumber())
   	.pipe(svgSprite(config))
   	.pipe(gulp.dest('.'));
+});
+
+gulp.task('default', ['sketch'], function() {
+  gulp.start('sprite');
 });
