@@ -1,7 +1,11 @@
 {
-  "name": "Custom icons for Sage",
+  "name": "custom-icons-for-sage",
   "version": "1.0.0",
-  "description": "Design custom icons with Sketch app and build a SVG sprite for Sage 8.5.3 starter theme",
+  "description": "Design custom icons with Sketch app and build a SVG sprite for using it in Sage 8.5.3 starter theme",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/aitormendez/custom-icons-for-sage"
+  }
   "main": "index.js",
   "dependencies": {
     "gulp-sketch": "^1.0.5"
