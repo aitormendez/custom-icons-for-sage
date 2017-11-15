@@ -24,12 +24,18 @@ $ git@github.com:aitormendez/custom-icons-for-sage.git && cd custom-icons-for-sa
 ```
 $ npm install
 ```
+
+Add this line: `@import "svg-sprite/sprite";` to `assets/styles/main.scss`
+
+## Usage
+
+From `your-theme-dir/custom-icons-for-sage`, run:
+
 ```
 $ gulp && gulp watch
 ```
-Add this line: `@import "svg-sprite/sprite";` to `assets/styles/main.scss`
 
-In another terminal window, from theme directory, run:
+In another terminal window, from `your-theme-dir`, run:
 
 ```
 $ gulp && gulp watch
