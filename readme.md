@@ -25,7 +25,7 @@ $ git@github.com:aitormendez/custom-icons-for-sage.git && cd custom-icons-for-sa
 $ npm install
 ```
 
-Add this line: `@import "svg-sprite/sprite";` to `assets/styles/main.scss`
+Add this line: `@import "svg-sprite/sprite";` to `your-theme-dir/assets/styles/main.scss`
 
 ## Usage
 
