@@ -10,7 +10,7 @@ Automated workflow to design custom icons and implement it into Sage 8.5.3 WordP
 Sketch template:
 ![Sketch template](readme-img/sketch-template.png?raw=true "Title")
 
-default sage HTML page with some icons rendered:
+Default sage HTML page with some icons rendered:
 ![default sage HTML page with some icons rendered](readme-img/html-render-dark.png?raw=true "Title")
 
 
