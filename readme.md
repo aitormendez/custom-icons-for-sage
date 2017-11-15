@@ -1,6 +1,6 @@
 # Custom icons for Sage 8.5.3
 
-Atomated workflow to design custom icons and implement it into Sage 8.5.3 WordPress starter theme environment.
+Automated workflow to design custom icons and implement it into Sage 8.5.3 WordPress starter theme environment.
 
 1. Design as many icons as you want with [Sketch app](https://www.sketchapp.com/) template
 2. Generate one SVG sprite with all icons.
@@ -35,11 +35,11 @@ In another terminal window, from theme directory, run:
 $ gulp && gulp watch
 ```
 
-(You should to have in this moment two terminal windows, both running `gulp watch`)
+(You should to have at this moment two terminal windows, both running `gulp watch`)
 
 Edit `src/sketch/icons.sketch` as you like.
 
-Edit your theme templates to include some icons in this way (look at `svg-sprite/_sprite.scss` to get a complete list of your css classes):
+Edit your theme templates to include some icons in this way (look at `assets/styles/svg-sprite/_sprite.scss` to get a complete list of your css classes):
 
 ```html
 <div class="svg-icon-one svg-icon-one-dims"></div>
