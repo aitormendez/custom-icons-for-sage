@@ -1,9 +1,9 @@
 
 
-var gulp   = require('gulp');
-var sketch = require('gulp-sketch');
-var svgSprite	 = require('gulp-svg-sprite');
-var plumber = require('gulp-plumber');
+var gulp      = require('gulp');
+var sketch    = require('gulp-sketch');
+var svgSprite	= require('gulp-svg-sprite');
+var plumber   = require('gulp-plumber');
 
 gulp.task('sketch', function(){
   return gulp.src('./src/sketch/*.sketch')
@@ -15,6 +15,7 @@ gulp.task('sketch', function(){
 });
 
 var config = {
+  "log": "verbose",
   "dest" : ".",
   "mode" : {
     "css" : {
