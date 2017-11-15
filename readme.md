@@ -19,7 +19,7 @@ Default sage HTML page with some icons rendered:
 From theme directory, run:
 
 ```
-$ git@github.com:aitormendez/custom-icons-for-sage.git && cd custom-icons-for-sage/
+$ git clone git@github.com:aitormendez/custom-icons-for-sage.git && cd custom-icons-for-sage/
 ```
 ```
 $ npm install
