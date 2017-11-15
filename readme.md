@@ -45,7 +45,7 @@ $ gulp && gulp watch
 
 Edit `src/sketch/icons.sketch` as you like.
 
-Edit your theme templates to include some icons in this way (look at `assets/styles/svg-sprite/_sprite.scss` to get a complete list of your css classes):
+Edit your theme templates to include some icons in this way (look at `your-theme-dir/assets/styles/svg-sprite/_sprite.scss` to get a complete list of your css classes):
 
 ```html
 <div class="svg-icon-one svg-icon-one-dims"></div>
