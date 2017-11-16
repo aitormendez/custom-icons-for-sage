@@ -55,3 +55,17 @@ Edit your theme templates to include some icons in this way (look at `your-theme
 Every time you save changes in sketch file, browser sync will update the page render with all changes.
 
 :smile:
+
+## Deploys with [Roots](https://roots.io/) full stack
+
+ If you are using Sage together with Trellis/Bedrock, is necessary to add one Ansible task to [deploy hooks](https://github.com/roots/trellis/blob/bbb0c372db487b6d99387ae37e573ebe23c2806d/deploy-hooks/build-before.yml).
+
+ Put this task between "Run gulp" task and "Copy project local files" task:
+
+```yml
+ - name: Run gulp into SVG sprites
+   command: gulp
+   connection: local
+   args:
+     chdir: "{{ project.local_path }}/web/app/themes/mrg/custom-icons-for-sage"
+```
