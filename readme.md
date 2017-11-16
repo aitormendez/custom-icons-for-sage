@@ -67,5 +67,5 @@ Every time you save changes in sketch file, browser sync will update the page re
    command: gulp
    connection: local
    args:
-     chdir: "{{ project.local_path }}/web/app/themes/mrg/custom-icons-for-sage"
+     chdir: "{{ project.local_path }}/web/app/themes/sage/custom-icons-for-sage"
 ```
