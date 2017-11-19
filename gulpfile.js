@@ -8,10 +8,11 @@ var plumber   = require('gulp-plumber');
 gulp.task('sketch', function(){
   return gulp.src('./src/sketch/*.sketch')
     .pipe(sketch({
-      export: 'slices',
+      export: 'artboards',
       formats: 'svg'
     }))
-    .pipe(gulp.dest('./dist/images/'));
+    .pipe(gulp.dest('./dist/images/'))
+    .pipe(gulp.dest('../assets/images/'));
 });
 
 var config = {
